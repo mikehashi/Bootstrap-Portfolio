@@ -18,9 +18,9 @@
 
 	      <div id="navbar" class="navbar-collapse collapse">
 		      <ul class="nav navbar-nav navbar-right">
-		          <li><a href="#">About</a></li>
-		          <li><a href="#">Portfolio</a></li>
-		          <li><a href="#">Contact</a></li>
+		          <li><a href="index.html">About</a></li>
+		          <li><a href="portfolio.html">Portfolio</a></li>
+		          <li><a href="contact.html">Contact</a></li>
 		      </ul>
 	      </div>
 	      <!--/.nav-collapse -->
@@ -30,9 +30,8 @@
 
   	<div class="container">
 	    <div class="row">
-	    	<div class="col-lg-9">
-				<h1>Portfolio</h1>
-				<hr>
+	    	<div id="section" class="col-lg-9">
+				<h1 id="headings">Portfolio</h1>
 				<div class="row">
 					<div class="text-center col-lg-6">
 						<div class="img-wrapper">
@@ -64,21 +63,35 @@
 
 	    	<div class="col-lg-3">
 				<div class="panel panel-default">
-					<div class="panel-heading">
-						Sidebar
+					<div class="panel-heading" id="headings">
+						<h3>Connect With Me<h3>
 					</div>
 					<div class="panel-body">
-						Sidebar Content
+						<ul>
+						<div id="connectImages" class="row">
+							<li>
+								<a href="https://github.com/mikehashi"><img src="assets/images/github.png" alt="GitHub"></a>
+							</li>
+
+							<li>
+								<a href="https://www.linkedin.com/in/michael-hashimoto-a644224a/"><img src="assets/images/linkedin.png" alt="LinkedIn"></a>
+							</li>
+
+							<li>
+								<a href="https://stackoverflow.com/users/7829381/mikehashi"><img src="assets/images/stackoverflow.png" alt="StackOverflow">
+								</a>
+							</li>
+						</div>
+						</ul>
 					</div>
+
 				</div>
 	    	</div>
 		</div>
 	</div>
 
-	<nav class="navbar-default navbar-fixed-bottom">
-      <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
-      </div>
+	<nav id="footer" class="navbar-default navbar-fixed-bottom">
+        <p>&copy; Copyright 2017 Mike Hashimoto</p>
     </nav>
 
 </body>
