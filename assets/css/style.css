@@ -1,0 +1,49 @@
+body {
+  background-image: url(../images/playstation-pattern.png);
+}
+
+nav .container {
+  background-color: #fff;
+  width:100%;
+}
+
+.headerName {
+  padding: 25px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+  background-color: #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.navbar {
+  
+}
+
+img {
+  width:100%;
+}
+
+
+
+
+
+.img-wrapper {
+  position: relative;
+ }
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
